@@ -10,7 +10,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 /**
  * Created by liyikun on 2017/6/4.
  */
-@RepositoryRestResource(path = "location")
+@RepositoryRestResource(path = "locations")
 public interface LocationRepository extends JpaRepository<Location, Long> {
 
     @RestResource(path = "runners")

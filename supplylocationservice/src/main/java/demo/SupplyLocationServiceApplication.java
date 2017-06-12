@@ -4,12 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by liyikun on 2017/6/4.
+ * Created by liyikun on 2017/6/8.
  */
 @SpringBootApplication
-public class RunningLocationServiceApplication {
+public class SupplyLocationServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RunningLocationServiceApplication.class, args);
+        SpringApplication.run(SupplyLocationRepository.class, args);
     }
 }
